@@ -34,7 +34,7 @@ steps:
     nobuild: true
     includesymbols: true
     includesource: true
-    versioningScheme: 'ByEnvVar'
+    versioningScheme: 'byEnvVar'
     versionEnvVar: 'versionStr'
 
 - task: DotNetCoreCLI@2
